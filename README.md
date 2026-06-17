@@ -1,6 +1,6 @@
-# 🏢 Company Employee Management System (EMS)
+# 🏢 Company Employe Management System (EMS)
 
-A modern, premium, and fully responsive **Company Employee Management System** built with **React 19**, **Vite**, and **Tailwind CSS v4**. It features a stunning glassmorphism dark/light design system, complete task workflow management, local storage persistence, and role-based access control.
+A modern, premium, and fully responsive **Company Employe Management System** built with **React 19**, **Vite**, and **Tailwind CSS v4**. It features a stunning glassmorphism dark/light design system, complete task workflow management, local storage persistence, and role-based access control.
 
 ## 🚀 Live Demo
 The application is live and hosted on GitHub Pages:
@@ -85,5 +85,5 @@ Use the quick-login buttons on the login page or type in the following credentia
 * **Password**: `admin123`
 
 ### 👥 Demo Employee Account
-* **Email**: `arjun@company.com` (or create a new employee via the "Sign Up" option)
+* **Email**: `arjun@company.com` or `arjun99@gmail.com` (or create a new employee via the "Sign Up" option)
 * **Password**: `employee123`
