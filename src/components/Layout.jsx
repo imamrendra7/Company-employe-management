@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
                   EMS Portal
                 </h1>
                 <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '1px' }}>
-                  Employee Management
+                  Employee Management System
                 </p>
               </div>
             </div>
