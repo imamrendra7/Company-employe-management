@@ -16,15 +16,15 @@ const Layout = ({ children }) => {
             
             {/* Brand */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-              <div style={{
-                width: '38px', height: '38px',
-                background: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
-                borderRadius: '10px',
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                boxShadow: '0 4px 14px rgba(99, 102, 241, 0.35)'
-              }}>
-                <Building2 size={20} color="white" />
-              </div>
+              <img
+                src={`${import.meta.env.BASE_URL}vite.svg`}
+                alt="EMS Logo"
+                style={{
+                  width: '38px',
+                  height: '38px',
+                  objectFit: 'contain'
+                }}
+              />
               <div>
                 <h1 style={{ fontSize: '1rem', fontWeight: 800, color: 'var(--text-primary)', lineHeight: 1 }}>
                   EMS Portal

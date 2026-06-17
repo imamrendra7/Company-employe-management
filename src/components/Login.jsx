@@ -71,8 +71,16 @@ const Login = () => {
 
       <div className="login-card animate-fade-up" style={{ maxWidth: isSignUp ? '480px' : '420px' }}>
         {/* Logo */}
-        <div className="login-logo">
-          {isSignUp ? <UserPlus size={30} color="white" /> : <Building2 size={30} color="white" />}
+        <div className="login-logo" style={{ background: 'none', boxShadow: 'none', width: '72px', height: '72px' }}>
+          <img
+            src={`${import.meta.env.BASE_URL}vite.svg`}
+            alt="EMS Logo"
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'contain'
+            }}
+          />
         </div>
 
         {/* Title */}
